@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'Kollektif';
+    src: url('fonts/Kollektif.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('fonts/CooperHewitt-Medium.ttf') format('truetype');
+  }
+  body{
+    background-color: #fff1ed;
+    color: #7c606b;
+}
+nav, .specials, .takeout, .kollektif, h4, h2, h3, h5{
+    font-family: 'Kollektif', sans-serif ;
+}
+p, .cooper{
+    font-family: 'Cooper-Hewitt', sans-serif ;
+}
+.social-media-header{
+    display: none;
+}
+.social-media-footer{
+    display: inline;
+    max-width: 50px;
+}
+.location img{
+    height: 50px;
+
+}
+.location{
+    text-align: center;
+}
+.header-text{
+    background-color: #7c606b ;
+    padding: .7rem;
+    color: white;
+    margin: .3rem ;
+    text-align: center;
+    border: #7c606b ;
+    border-radius: 50px;
+    font-size: .7rem;
+
+}
+.location>.header-text{
+    font-size: .5rem;
+}
+.logo{
+    width: 43%;
+    margin-bottom: 2rem;
+}
+nav a{
+    background-color: #eabdae;
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .3rem;
+}
+nav a:hover{
+    background-color: #c78d79 ;
+    transition: background-color .3s ease-in-out;
+}
+nav a:active{
+    color: #fff1ed;
+}
+nav{
+    margin-top: 2rem;
+    width: 100%;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+header div:first-child, header>p{
+    width: 23%;
+}
+.specials, .takeout{
+    text-align: center;
+}
+.brunch{
+    font-size: 3rem;
+    background-image: url(images/homepage-photo-opacity.png);
+    background-size: cover;
+    margin: 1rem;
+    padding: 1rem;
+}
+.brunch h1, .brunch h5{
+    margin: 0;
+    color: black;
+}
+.brunch h5{
+    font-size: 1rem;
+}
+.white-logo{
+    height: 80px;
+    background-color: #eabdae;
+    border-radius: 50px;
+}
+footer{
+    text-align: center;
+    font-size: .7rem;
+}
+.contact p{
+    display: inline;
+    padding: .5rem;
+    font-size: 1rem;
+}
+footer img{
+    padding: 0;
+}
+.home-text{
+    margin: 2rem;
+}
+.takeout h2{
+    text-decoration: underline;
+}
+.takeout img, .takeout p{
+    padding: 1rem;
+}
+.takeout img{
+    height: 100px;
+}
+.takeout div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.breakfast-special{
+    background-image: url(images/strawberry-french-toast-opacity.png);
+    padding: 2rem;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: black;
+}
+.brunch-special{
+    background-image: url(images/ciabatta-opacity.png);
+    padding: 1.5rem;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: black;
+}
+.lunch-special{
+    background-image: url(images/chicken-wrap-opacity.png);
+    padding: 2rem;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: black;
+}
+.menu h2{
+    text-align: center;
+    padding: 3rem;
+}
+.breakfast-menu{
+    background-image: url(images/breakfast-menu-opacity.png);
+    padding: 3rem;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 3rem;
+    color: black;
+}
+.brunch-menu{
+    background-image: url(images/brunch-menu-opacity.png);
+    padding: 3rem;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 3rem;
+    color: black;
+}
+.lunch-menu{
+    background-image: url(images/lunch-menu-opacity.png);
+    padding: 3rem;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 3rem;
+    color: black;  
+}
+.menu h4{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.menu p{
+    margin-top: .5rem;
+}
+.bakery img{
+    height: 100px;
+    margin: 2rem ;
+    display: inline;
+}
+.bakery h3{
+    display: inline;
+    top: 40px;
+    right: 100px;
+}
+.bakery-togo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bakery h2{
+    font-size: 4rem;
+    text-align: center;
+    background-image: url(images/bread-opacity.jpg);
+    padding: 5rem;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    color: black; 
+}
+.bakery h4{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.bakery p{
+    margin-top: .5rem;
+}
+.catering-header h2{
+    font-size: 3.5rem;
+    text-align: center;
+    background-image: url(images/catering-opacity.png);
+    padding: 5rem;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    color: black; 
+}
+.catering-header p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.catering h3{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline #7c606b 1rem;
+}
+.catering h4{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.catering p{
+    text-align: center;
+}
+.form p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.story h2{
+    font-size: 4rem;
+    text-align: center;
+    background-image: url(images/our-story.png);
+    padding: 5rem;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    color: white;
+}
+.story p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.icons img{
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icons h5{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+form{
+    background-color: #7c606b;
+    padding: 1rem 2rem;
+    width: 32rem;
+    margin: 1rem auto;
+    color: white;
+    border-radius: 50px;
+}
+input[type=text], [type=email], textarea{
+    font-size: 1.5rem;
+    width: 10rem;
+    border: 5px solid white;
+    padding: .5rem;
+    border-radius: .5rem;
+    background-color: #7c606b;
+}
+textarea{
+    width: 90%;
+    margin-top: 1rem;
+}
+form div{
+    margin-bottom: 1rem;
+}
+label{
+    font-family: 'Cooper-Hewitt' ;
+}
+.button{
+    font-family: 'Cooper-Hewitt' ;
+    background-color: white;
+    border: none;
+    color: #7c606b;
+    border-radius: 50px;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+@media(min-width: 1100px){
+    .social-media-header{
+        display: block;
+        position: absolute;
+        top: 1px;
+        right: 1px;
+    }
+    .social-media-header img{
+        width: 50px;
+    }
+    .breakfast-special{
+        width: 30rem;
+        margin: auto;
+    }
+    .brunch-special{
+        width: 30rem;
+        margin: auto;
+    }
+    .lunch-special{
+        width: 30rem;
+        margin: auto;
+    }
+    .brunch{
+        width: 30rem;
+        height: 10rem;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .logo{
+        width: 35%;
+    }
+    .header-text{
+        font-size: 1.3rem;
+    }
+    .location>.header-text{
+        font-size: 1.1rem;
+    }
+    .location img{
+        height: 75px;
+    }
+    .home-text{
+        margin: 3rem 10rem;
+        font-size: 1.5rem;
+    }
+    .breakfast-menu{
+        width: 30rem;
+        height: 5rem;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .brunch-menu{
+        width: 30rem;
+        height: 5rem;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .lunch-menu{
+        width: 30rem;
+        height: 5rem;
+        margin: auto; 
+        margin-top: 3rem;
+    }
+    .bakery h2{
+        width: 30rem;
+        height: 5rem;
+        margin: auto; 
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .catering-header h2{
+        width: 30rem;
+        height: 5rem;
+        margin: auto; 
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .menu p, h4{
+        margin: 0 15rem;
+    }
+    .bakery p, h4{
+        margin: .5rem 15rem 1rem;
+    }
+    .catering-header p{
+        font-family: 'Kollektif', sans-serif;
+        font-size: 2rem;
+        margin: 1rem 6rem;
+    }
+    .story p{
+        margin: 1rem 15rem;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .icons div{
+        margin: 0 2rem;
+    }
+
+}
